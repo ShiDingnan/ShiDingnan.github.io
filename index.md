@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.4">
     <title>Styled Text</title>
     <style>
-        body {
+        Imp {
             font-family: Impact ,sans-serif;
             font-size: 6px; /* 设置整个页面的字号为 6 像素 */
         }
@@ -32,28 +32,30 @@
 <body>
     <div class="right-side">
 <p>
-    Here is the html link of our project:
+    <span class="imp">Here is the html link of our project:</span>
 
 https://github.com/shidingnan/shidingnan.github.io/blob/main/loong%20project.html</p>
 
 <br>	
 
 <p>
-    Here is the loong stl modle:
+     <span class="imp"> Here is the loong stl modle:</span>
+   
 
 https://github.com/shidingnan/shidingnan.github.io/blob/main/Dragon.stl</p>
 
 <br>	
 
 <p>
-Here is the video of animated loogn model:
+     <span class="imp"> Here is the video of animated loogn model:</span>
+
 
 https://github.com/shidingnan/shidingnan.github.io/blob/main/animation.mp4</p>
 
 <br>	
 
 <p>
-Here is the PPT of our Pre:
+      <span class="imp">Here is the PPT of our Pre:</span>
 
 https://github.com/shidingnan/shidingnan.github.io/blob/main/G4%20Presentation.pdf.</p>
 
@@ -62,6 +64,7 @@ https://github.com/shidingnan/shidingnan.github.io/blob/main/G4%20Presentation.p
 
 
 </body>
+
 <html>
 
 <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks for checking!&center=true&size=32"> </a> </h1>
