@@ -3,6 +3,7 @@
 <div class="d1"><img src="https://github.com/shidingnan/shidingnan.github.io/blob/main/back.jpg?raw=true" width="100%" height="100%"/></div>
 
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +19,18 @@
             font-size: 1.5em; /* 设置段落的字号为当前父元素字号的 1.5 倍 */
         }    
     </style>
+    <style>
+        .right-side {
+            float: right; /* 将元素向右浮动 */
+            width: 50%; /* 设置元素宽度为页面宽度的一半 */
+        }
+    </style>
 </head>
 
 
 
 <body>
+    <div class="right-side">
 <p>
     Here is the html link of our project:
 
