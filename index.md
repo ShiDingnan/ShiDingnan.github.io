@@ -37,14 +37,20 @@
         <ul class="group-list">
             <li>Group Leader:QIANYU TANG</li>
             <br>
+             <br>
             <li>Member 1:DINGNAN SHI</li>
             <br>
+             <br>
             <li>Member 2:ZHANGYANG NIE</li>
             <br>
+             <br>
             <li>Member 3:YUFAN LIU</li>
-        </ul>
-           </div>
+             <br>
+             <br>
+             <br>
+             </div>
     <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks for checking!&center=true&size=32"> </a> </h1>
+        </ul>
     </div>
     <div class="right-side">
         <p>
