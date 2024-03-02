@@ -10,7 +10,7 @@
     <title>Styled Text</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Impact ,sans-serif;
             font-size: 16px; /* 设置整个页面的字号为 20 像素 */
         }
         p {
