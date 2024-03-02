@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=It is the page of Group4!&center=true&size=27&font-family: Impact ,sans-serif;"> </a> </h1>
+<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=It is the page of Group4!&center=true&size=27"> </a> </h1>
 <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome!&center=true&size=32"> </a> </h1>
 <div class="d1"><img src="https://github.com/shidingnan/shidingnan.github.io/blob/main/back.jpg?raw=true" width="100%" height="100%"/></div>
 
@@ -19,8 +19,6 @@
         }    
     </style>
 </head>
-<body>
-    <p>
 
 
 
@@ -56,6 +54,6 @@ https://github.com/shidingnan/shidingnan.github.io/blob/main/G4%20Presentation.p
 
 
 </body>
-</html>
+<html>
 
-
+<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks for checking!&center=true&size=32"> </a> </h1>
