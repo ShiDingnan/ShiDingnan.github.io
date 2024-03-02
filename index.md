@@ -22,30 +22,37 @@
 <body>
     <p>
 
-Here is the html link of our project:
-
-https://github.com/shidingnan/shidingnan.github.io/blob/main/loong%20project.html
 
 
+<body>
+<p>
+    Here is the html link of our project:
 
-      
-Here is the loong stl modle:
+https://github.com/shidingnan/shidingnan.github.io/blob/main/loong%20project.html</p>
 
-https://github.com/shidingnan/shidingnan.github.io/blob/main/Dragon.stl
+<br>	
 
+<p>
+    Here is the loong stl modle:
 
+https://github.com/shidingnan/shidingnan.github.io/blob/main/Dragon.stl</p>
 
+<br>	
 
+<p>
 Here is the video of animated loogn model:
 
-https://github.com/shidingnan/shidingnan.github.io/blob/main/animation.mp4
+https://github.com/shidingnan/shidingnan.github.io/blob/main/animation.mp4</p>
 
+<br>	
 
-
-
+<p>
 Here is the PPT of our Pre:
 
 https://github.com/shidingnan/shidingnan.github.io/blob/main/G4%20Presentation.pdf.</p>
+
+
+<br>	
 
 
 </body>
