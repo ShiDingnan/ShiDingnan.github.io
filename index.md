@@ -2,7 +2,6 @@
 <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome!&center=true&size=32"> </a> </h1>
 <div class="d1"><img src="https://github.com/shidingnan/shidingnan.github.io/blob/main/back.jpg?raw=true" width="100%" height="100%"/></div>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,11 +10,13 @@
     <title>Styled Text</title>
     <style>
         body {
-            font-family: Arial, sans-serif; /* 设置字体 */
+            font-family: Arial, sans-serif;
+            font-size: 20px; /* 设置整个页面的字号为 20 像素 */
         }
         p {
-            color: #008000; /* 设置颜色 */
-        }
+            color: #008080; 
+            font-size: 1.5em; /* 设置段落的字号为当前父元素字号的 1.5 倍 */
+        }    
     </style>
 </head>
 <body>
