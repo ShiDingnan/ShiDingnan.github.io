@@ -6,12 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
     <title>Styled Text</title>
     <style>
         body {
             font-family: Impact ,sans-serif;
-            font-size: 6px; /* 设置整个页面的字号为 20 像素 */
+            font-size: 6px; /* 设置整个页面的字号为 6 像素 */
         }
         p {
             color: #008080; 
