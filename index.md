@@ -48,8 +48,6 @@
              <br>
              <br>
              <br>
-             </div>
-    <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks for checking!&center=true&size=32"> </a> </h1>
         </ul>
     </div>
     <div class="right-side">
@@ -76,3 +74,5 @@
     </div>
 </body>
 </html>
+     </div>
+    <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks for checking!&center=true&size=32"> </a> </h1>
