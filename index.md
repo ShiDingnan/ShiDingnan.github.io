@@ -1,5 +1,8 @@
 
 <html lang="en">
+    <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=It is the page of Group4!&center=true&size=27"> </a> </h1>
+    <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome!&center=true&size=32"> </a> </h1>
+    <div class="d1"><img src="https://github.com/shidingnan/shidingnan.github.io/blob/main/back.jpg?raw=true" width="100%" height="100%"/></div>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,10 +35,13 @@
     <div class="left-side">
         <h2>Group 4 Members:</h2>
         <ul class="group-list">
-            <li>Member 1</li>
-            <li>Member 2</li>
-            <li>Member 3</li>
-            <!-- Add more members as needed -->
+            <li>Group Leader:QIANYU TANG</li>
+            <br>
+            <li>Member 1:DINGNAN SHI</li>
+            <br>
+            <li>Member 2:ZHANGYANG NIE</li>
+            <br>
+            <li>Member 3:YUFAN LIU</li>
         </ul>
     </div>
     <div class="right-side">
