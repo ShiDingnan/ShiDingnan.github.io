@@ -11,7 +11,7 @@
     <style>
         body {
             font-family: Impact ,sans-serif;
-            font-size: 10px; /* 设置整个页面的字号为 20 像素 */
+            font-size: 6px; /* 设置整个页面的字号为 20 像素 */
         }
         p {
             color: #008080; 
