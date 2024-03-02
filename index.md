@@ -1,8 +1,5 @@
 
 <html lang="en">
-    <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=It is the page of Group4!&center=true&size=27"> </a> </h1>
-    <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome!&center=true&size=32"> </a> </h1>
-    <div class="d1"><img src="https://github.com/shidingnan/shidingnan.github.io/blob/main/back.jpg?raw=true" width="100%" height="100%"/></div>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +17,27 @@
             float: right;
             width: 50%;
         }
+        .left-side {
+            float: left;
+            width: 50%;
+            padding: 20px;
+        }
+        .group-list {
+            font-size: 1.2em;
+            color: #000;
+        }
     </style>
 </head>
 <body>
+    <div class="left-side">
+        <h2>Group 4 Members:</h2>
+        <ul class="group-list">
+            <li>Member 1</li>
+            <li>Member 2</li>
+            <li>Member 3</li>
+            <!-- Add more members as needed -->
+        </ul>
+    </div>
     <div class="right-side">
         <p>
             <span class="imp">HTML link：</span>
@@ -45,6 +60,5 @@
         </p>
         <br>
     </div>
-    <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks for checking!&center=true&size=32"> </a> </h1>
 </body>
 </html>
