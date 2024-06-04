@@ -4,13 +4,26 @@
 <meta charset="utf-8">
 <title>旋转的星空</title>
 <style type="text/css">
-body {background: black; padding: 0; margin: 0; overflow: hidden;}
-.header {margin: 0 auto; width: 100%; height: 100%; background-color: #000; position: relative;}
 body { 
+    margin: 0px; 
+    padding: 0px; 
     font-family: Arial, sans-serif; 
-    background-color: rgba(0, 0, 0, 0.8); 
     color: white; 
     text-align: justify; 
+    background: black; 
+    overflow: hidden; 
+    position: relative;
+}
+.header { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -1;
+}
+canvas { 
+    display: block; 
 }
 a { 
     color: white; 
@@ -49,14 +62,6 @@ a {
     position: fixed; 
     bottom: 20px; 
     right: 20px; 
-}
-.d1 { 
-    position: absolute; 
-    left: 0px; 
-    top: 0px; 
-    width: 100%; 
-    height: 100%; 
-    z-index: -1; 
 }
 p { 
     font-size: 1.2em; 
