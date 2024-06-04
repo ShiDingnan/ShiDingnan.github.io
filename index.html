@@ -23,6 +23,126 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.profile h2, .content h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.waifu {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.d1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <div class="waifu-tool">
+        <span class="fui-home"></span>
+        <span class="fui-chat"></span>
+        <span class="fui-eye"></span>
+        <span class="fui-user"></span>
+        <span class="fui-photo"></span>
+        <span class="fui-info-circle"></span>
+        <span class="fui-cross"></span>
+    </div>
+</div>
+
+<script src="assets/waifu-tips.js"></script>
+<script src="assets/live2d.js"></script>
+<script type="text/javascript">initModel("assets/")</script>
+
+<div class="d1">
+    <img src="https://github.com/foreverdimo/mysite.github.io/blob/master/background.png?raw=true" width="100%" height="100%"/>
+</div>
+
+<h1 align="center"><small><sup>^_^ Welcome to the homepage of Yiyang Zhang!</sup></small></h1>
+
+<div class="container">
+    <div class="profile">
+        <h2>Self-introduction</h2>
+        <img src="your-photo-url.jpg" alt="Yiyang Zhang's photo">
+        <p><strong>Name:</strong> Yiyang Zhang</p>
+        <p><strong>Student ID:</strong> [Your Student ID]</p>
+        <p><strong>Birthdate:</strong> 2001.07.28</p>
+        <p><strong>Hometown:</strong> Jingmen, Hubei Province, China</p>
+        <p><strong>Grade:</strong> Junior</p>
+        <p>Now studying at <a href="https://pku.edu.cn" target="_blank">Peking University</a>, <a href="http://eecs.pku.edu.cn" target="_blank">School of Electronic Engineering and Computer Science</a>, majoring in AI (Artificial Intelligence) science</p>
+        <p><strong>Programming languages:</strong> C++, Python</p>
+        <p><strong>Lab:</strong> <a href="http://idm.pku.edu.cn/" target="_blank">NATIONAL ENGINEERING LABORATORY FOR VIDEO TECHNOLOGY</a></p>
+        <p><strong>Interests:</strong> ACG culture and video games</p>
+        <p><strong>Sports:</strong> Jogging, swimming, table tennis</p>
+        <h2>Contact Me</h2>
+        <p><strong>QQ:</strong> 2981925775</p>
+        <p><strong>Wechat:</strong> woaidimo</p>
+        <p><strong>Email:</strong> 2981925775@qq.com or 1800013111@pku.edu.cn</p>
+    </div>
+    <div class="content">
+        <h2>My Works</h2>
+        <p><a href="https://github.com/foreverdimo/SemEval-2020-Task5" target="_blank">Codalab SemEval-Task5</a></p>
+        <p><a href="https://github.com/foreverdimo/LRDB-Hydra" target="_blank">LRDB model Re-implementation in Pytorch-Hydra</a></p>
+        <p><a href="https://github.com/foreverdimo/mysite.github.io/tree/master/python_visualization" target="_blank">Pyecharts Visualization Exercise (计算机科学与编程基础课程第二次作业)</a></p>
+        <p>RIRNet Model Re-implementation in Pytorch (Working...)</p>
+        <h2>Some of My Links</h2>
+        <p><a href="https://github.com/foreverdimo" target="_blank">My Github homepage</a></p>
+        <p><a href="https://space.bilibili.com/36057269" target="_blank">My Bilibili space</a></p>
+        <p><a href="https://user.qzone.qq.com/2981925775" target="_blank">My QQ zone</a></p>
+    </div>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>的个人主页</title>
+<link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<style type="text/css">
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+.profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .content {
     background-color: #fff;
