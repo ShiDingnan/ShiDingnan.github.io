@@ -108,8 +108,6 @@ p {
 .badge {
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 120px; /* 设置徽章的宽度 */
-    height: 40px;  /* 设置徽章的高度 */
 }
 </style>
 </head>
@@ -217,7 +215,7 @@ canvas2.width = 100;
 canvas2.height = 100;
 var half = canvas2.width / 2,
 gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
-gradient2.addColorStop(0.025, '#CCC');
+gradient2.addColorStop(0.025, '#CFF');
 gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
 gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
 gradient2.addColorStop(1, 'transparent');
@@ -251,7 +249,7 @@ this.radius = random(60, this.orbitRadius) / 8;
 this.orbitX = w / 2;
 this.orbitY = h / 2;
 this.timePassed = random(0, maxStars);
-this.speed = random(this.orbitRadius) / 500000;
+this.speed = random(this.orbitRadius) / 5000000;
 //星星移动速度
 this.alpha = random(2, 10) / 10;
 count++;
