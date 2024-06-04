@@ -1,81 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Personal Homepage</title>
-<link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<title>旋转的星空</title>
 <style type="text/css">
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    text-align: justify;
+body{background: black;padding: 0;margin: 0; overflow:hidden}
+.header{margin: 0 auto;width: 100%;height: 100%;background-color: #000;position: relative;}
+body { 
+    margin: 0px; 
+    padding: 0px; 
+    font-family: Arial, sans-serif; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    text-align: justify; 
 }
-a {
-    color: white;
-    text-decoration: none;
+a { 
+    color: white; 
+    text-decoration: none; 
 }
-.section {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    text-align: justify;
+.section { 
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+    text-align: justify; 
 }
-.section h2 {
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-size: 2em;
-    color: #FFD700;
-    font-family: Georgia, serif;
-    font-weight: bold;
+.section h2 { 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    font-size: 2em; 
+    color: #FFD700; 
+    font-family: Georgia, serif; 
+    font-weight: bold; 
 }
-.profile img {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.profile img { 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
-.waifu {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+.waifu { 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
 }
-.d1 {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+.d1 { 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -1; 
 }
-p {
-    font-size: 1.2em;
+p { 
+    font-size: 1.2em; 
 }
-.english {
-    font-family: Georgia, serif;
-    font-size: 1.4em;
+.english { 
+    font-family: Georgia, serif; 
+    font-size: 1.4em; 
 }
-.chinese {
-    font-family: 'SimSun', serif;
+.chinese { 
+    font-family: 'SimSun', serif; 
 }
-.bold-yellow {
-    font-weight: bold;
-    color: #FFD700;
+.bold-yellow { 
+    font-weight: bold; 
+    color: #FFD700; 
 }
 </style>
 </head>
 <body>
-
+<div class="header"><canvas id="canvas"></canvas></div>
 <div class="waifu">
     <div class="waifu-tips"></div>
     <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
@@ -89,18 +89,15 @@ p {
         <span class="fui-cross"></span>
     </div>
 </div>
-
 <script src="assets/waifu-tips.js"></script>
 <script src="assets/live2d.js"></script>
 <script type="text/javascript">initModel("assets/")</script>
-
 <div class="d1">
     <img src="bb.png" width="100%" height="100%"/>
 </div>
-
-<h1 align="center"><sup>^_^ Welcome to the homepage of Stina!</sup></small></h1>
-
+<h1 align="center"><small><sup>^_^ Welcome to the homepage of Yiyang Zhang!</sup></small></h1>
 <div class="section profile">
+    <h2 class="chinese">自我介绍</h2>
     <h2 class="english">Self-introduction</h2>
     <img src="微信图片_20240604001440(1)(1).png" alt="My photo">
     <p><span class="english"><span class="bold-yellow">Name:</span> Yiyang Zhang</span> <span class="chinese">/ <span class="bold-yellow">姓名:</span> 张艺阳</span></p>
@@ -115,14 +112,12 @@ p {
     <p><span class="english"><span class="bold-yellow">Interests:</span> ACG culture and video games</span> <span class="chinese">/ <span class="bold-yellow">兴趣爱好:</span> ACG文化和电子游戏</span></p>
     <p><span class="english"><span class="bold-yellow">Sports:</span> Jogging, swimming, table tennis</span> <span class="chinese">/ <span class="bold-yellow">体育运动:</span> 跑步, 游泳, 乒乓球</span></p>
 </div>
-
 <div class="section contact">
     <h2 class="english">Contact Me</h2>
     <p><span class="english"><span class="bold-yellow">QQ:</span> 2981925775</span></p>
     <p><span class="english"><span class="bold-yellow">Wechat:</span> woaidimo</span> <span class="chinese">/ <span class="bold-yellow">微信:</span> woaidimo</span></p>
     <p><span class="english"><span class="bold-yellow">Email:</span> 2981925775@qq.com or 1800013111@pku.edu.cn</span> <span class="chinese">/ <span class="bold-yellow">电子邮箱:</span> 2981925775@qq.com 或 1800013111@pku.edu.cn</span></p>
 </div>
-
 <div class="section works">
     <h2 class="english">My Works</h2>
     <p><a href="https://github.com/foreverdimo/SemEval-2020-Task5" target="_blank"><span class="english"><span class="bold-yellow">Codalab SemEval-Task5</span></span> <span class="chinese">/ <span class="bold-yellow">Codalab SemEval-Task5</span></span></a></p>
@@ -130,13 +125,95 @@ p {
     <p><a href="https://github.com/foreverdimo/mysite.github.io/tree/master/python_visualization" target="_blank"><span class="english"><span class="bold-yellow">Pyecharts Visualization Exercise (Second Homework of Computer Science and Programming Basics Course)</span></span> <span class="chinese">/ <span class="bold-yellow">Pyecharts可视化练习 (计算机科学与编程基础课程第二次作业)</span></span></a></p>
     <p><span class="english"><span class="bold-yellow">RIRNet Model Re-implementation in Pytorch (Working...)</span></span> <span class="chinese">/ <span class="bold-yellow">RIRNet模型在Pytorch中的重新实现 (进行中)</span></span></p>
 </div>
-
 <div class="section links">
     <h2 class="english">Some of My Links</h2>
     <p><a href="https://github.com/foreverdimo" target="_blank"><span class="english"><span class="bold-yellow">My Github homepage</span></span> <span class="chinese">/ <span class="bold-yellow">我的Github主页</span></span></a></p>
     <p><a href="https://space.bilibili.com/36057269" target="_blank"><span class="english"><span class="bold-yellow">My Bilibili space</span></span> <span class="chinese">/ <span class="bold-yellow">我的Bilibili空间</span></span></a></p>
     <p><a href="https://user.qzone.qq.com/2981925775" target="_blank"><span class="english"><span class="bold-yellow">My QQ zone</span></span> <span class="chinese">/ <span class="bold-yellow">我的QQ空间</span></span></a></p>
 </div>
-
+<script>
+var canvas = document.getElementById('canvas'),
+ctx = canvas.getContext('2d'),
+w = canvas.width = window.innerWidth,
+h = canvas.height = window.innerHeight,
+hue = 217,
+stars = [],
+count = 0,
+maxStars = 3000;//星星数量
+var canvas2 = document.createElement('canvas'),
+ctx2 = canvas2.getContext('2d');
+canvas2.width = 100;
+canvas2.height = 100;
+var half = canvas2.width / 2,
+gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+gradient2.addColorStop(0.025, '#CCC');
+gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+gradient2.addColorStop(1, 'transparent');
+ctx2.fillStyle = gradient2;
+ctx2.beginPath();
+ctx2.arc(half, half, half, 0, Math.PI * 2);
+ctx2.fill();
+// End cache
+function random(min, max) {
+if (arguments.length < 2) {
+max = min;
+min = 0;
+}
+if (min > max) {
+var hold = max;
+max = min;
+min = hold;
+}
+return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+function maxOrbit(x, y) {
+var max = Math.max(x, y),
+diameter = Math.round(Math.sqrt(max * max + max * max));
+return diameter / 2;
+//星星移动范围，值越大范围越小，
+}
+var Star = function() {
+this.orbitRadius = random(maxOrbit(w, h));
+this.radius = random(60, this.orbitRadius) / 8;
+//星星大小
+this.orbitX = w / 2;
+this.orbitY = h / 2;
+this.timePassed = random(0, maxStars);
+this.speed = random(this.orbitRadius) / 50000;
+//星星移动速度
+this.alpha = random(2, 10) / 10;
+count++;
+stars[count] = this;
+}
+Star.prototype.draw = function() {
+var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX,
+y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY,
+twinkle = random(10);
+if (twinkle === 1 && this.alpha > 0) {
+this.alpha -= 0.05;
+} else if (twinkle === 2 && this.alpha < 1) {
+this.alpha += 0.05;
+}
+ctx.globalAlpha = this.alpha;
+ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+this.timePassed += this.speed;
+}
+for (var i = 0; i < maxStars; i++) {
+new Star();
+}
+function animation() {
+ctx.globalCompositeOperation = 'source-over';
+ctx.globalAlpha = 0.5; //尾巴
+ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 2)';
+ctx.fillRect(0, 0, w, h)
+ctx.globalCompositeOperation = 'lighter';
+for (var i = 1, l = stars.length; i < l; i++) {
+stars[i].draw();
+};
+window.requestAnimationFrame(animation);
+}
+animation();
+</script>
 </body>
 </html>
