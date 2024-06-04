@@ -28,8 +28,13 @@ canvas {
 }
 a { 
     color: white; 
-    text-decoration: none; 
+    text-decoration: underline; /* 添加下划线 */
 }
+
+a:hover {
+    text-decoration: underline; /* 鼠标悬停时仍保持下划线 */
+}
+
 .container {
     display: grid;
     grid-template-columns: 4fr 6fr;
@@ -101,6 +106,9 @@ p {
 .badge {
     margin-right: 10px;
     margin-bottom: 10px;
+    width: 120px; /* 设置徽章的宽度 */
+    height: 40px;  /* 设置徽章的高度 */
+    transform: scale(1.2); /* 放大徽章的内容 */
 }
 </style>
 </head>
@@ -128,7 +136,7 @@ p {
         <h2 class="english">Self-introduction</h2>
         <img src="微信图片_20240604001440(1)(1).png" alt="My photo">
         <p><span class="english"><span class="bold-purple">Name:</span> Dingnan Shi</span></p>
-        <p><span class="english"><span class="bold-purple">Birthdate:</span> 2001.07.28</span></p>
+        <p><span class="english"><span class="bold-purple">Birthdate:</span> 2003.09.25</span></p>
         <p><span class="english"><span class="bold-purple">Hometown:</span> Kunming, Yunnan Province, China</span></p>
         <p><span class="english"><span class="bold-purple">Grade:</span> Junior</span></p>
         <p><span class="english"><span class="bold-purple">Education:</span> University / School of Information Science and Technology</span></p>
@@ -147,10 +155,10 @@ p {
         <p><a href="https://github.com/foreverdimo/LRDB-Hydra" target="_blank"><span class="english"><span class="bold-purple">LRDB model Re-implementation in Pytorch-Hydra</span></span></a></p>
         <p><a href="https://github.com/foreverdimo/mysite.github.io/tree/master/python_visualization" target="_blank"><span class="english"><span class="bold-purple">Pyecharts Visualization Exercise (Second Homework of Computer Science and Programming Basics Course)</span></span></a></p>
         <p><span class="english"><span class="bold-purple">RIRNet Model Re-implementation in Pytorch (Working...)</span></span></p>
+        
         <h2 class="english">Some of My Links</h2>
-        <p><a href="https://github.com/foreverdimo" target="_blank"><span class="english"><span class="bold-purple">My Github homepage</span></a></p>
+        <p><a href="https://github.com/shidingnan" target="_blank"><span class="english"><span class="bold-purple">My Github homepage</span></a></p>
         <p><a href="https://space.bilibili.com/36057269" target="_blank"><span class="english"><span class="bold-purple">My Bilibili space</span></a></p>
-        <p><a href="https://user.qzone.qq.com/2981925775" target="_blank"><span class="english"><span class="bold-purple">My QQ zone</span></a></p>
 
 <div class="skills">
     <h2 class="english">Skills</h2>
